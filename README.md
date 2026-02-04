@@ -16,8 +16,8 @@ We assume some basic awareness of UNIX environment, as well as at least beginner
 ## Learning outcomes
 By completing this course, you will:
 
-- Understand the basics of machine learning approaches to biological data analysis
-- Gain an overview of basic statistical and machine learning algorithms for data analysis
+- Understand the basics of statistical and machine learning approaches to biological data analysis
+- Gain an overview of basic machine learning algorithms and their applications
 - Be able to choose the right algorithms and approaches to answer your specific research question
 - Gain confidence in learning new methods needed to answer your research question
 
