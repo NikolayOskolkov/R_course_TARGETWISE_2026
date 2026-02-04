@@ -8,8 +8,7 @@
 - Dr. Daniel Rivas, postdoctoral fellow in Metabolic Research Group, LIOS, Riga, Latvia
 
 ## Course overview
-This course is designed for participants who are at beginner-level or have basic familiarity with R and are ready to advance their programming and computational data-analysis skills. Building on foundational R concepts, the course emphasizes writing clean, efficient, and reproducible code, and implementing core statistical and machine-learning algorithms from scratch. Alongside deeper coverage of data structures, programming paradigms and functional programming, participants will explore practical applications in bioinformatics. The course covers writing custom functions, debugging, profiling code for performance, and handling larger datasets.
-Students will progress from fundamental programming concepts to implementing key analytical tools, including non-parametric and permutation-based statistical tests, linear mixed models (LMMs), dimensionality reduction (PCA, tSNE, UMAP) and clustering algorithms (e.g., k-means), random forests, and simple neural networks directly in base R. Real-world biological datasets will be used throughout the course.
+This course is designed for participants who are at beginner-level or have basic familiarity with R and are ready to advance their programming and computational data-analysis skills. Building on foundational R concepts, the course emphasizes implementing core statistical and machine-learning algorithms from scratch. Alongside deeper coverage of data structures, programming paradigms and functional programming, participants will explore practical applications in bioinformatics. The course covers writing custom functions, debugging, profiling code for performance, and handling larger datasets. Students will progress from fundamental programming concepts to implementing key analytical tools, including non-parametric and permutation-based statistical tests, linear mixed models (LMMs), dimensionality reduction (PCA, tSNE, UMAP) and clustering algorithms (e.g., k-means), random forests, and simple neural networks directly in base R. 
 
 ## Target audience and assumed background
 We assume some basic awareness of UNIX environment, as well as at least beginner level of R and / or Python programming.
@@ -18,9 +17,8 @@ We assume some basic awareness of UNIX environment, as well as at least beginner
 By completing this course, you will:
 
 - Understand the basics of machine learning approaches to biological data analysis
-- Gain an overview of bioinformatic tools and best practices for integrative Omics analysis
-- Be able to design an integrative project and implement appropriate analysis methodologies
-- Be able to choose the right tools and approaches to answer your specific research question
+- Gain an overview of basic statistical and machine learning algorithms for data analysis
+- Be able to choose the right algorithms and approaches to answer your specific research question
 - Gain confidence in learning new methods needed to answer your research question
 
 ---
