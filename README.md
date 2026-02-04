@@ -29,8 +29,6 @@ By completing this course, you will:
 
 | Time   | Activity                                                          | Link                                                                                                                                                    |
 |--------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ~ 1 h  | Recorded talk: Omics Logic Symposium 2022                                                                                 | [Video](https://www.youtube.com/watch?v=Jrz6t3fbOCw)                                            |
-| ~ 2 h  | Primer article: Predicting type 2 diabetes via machine learning integration of multiple omics from human pancreatic islets| [PDF](https://github.com/NikolayOskolkov/Physalia_MLOmics_Barcelona_2025/raw/main/articles/Multi_Omics_T2D_ScientificReports2024.pdf)                                                                                                                                                                                             |
 | ~ 1 h  | In case needed: Recap on Unix                                                                                             | [Lab](command-line-basics.md)                                                                   |
 | ~ 1 h  | Useful reading: Select features or Omics integration                                                                      | [Blog](https://medium.com/data-science/select-features-for-omics-integration-511390b7e7fd?sk=bf0c744caa41ec0cf37577d85a132276)                                                                                                                                                                                                   |
 | ~ 1 h  | Useful reading: Supervised Omics integration                                                                              | [Blog](https://medium.com/data-science/supervised-omics-integration-2158e1a6d23f?sk=6e4e6fd239da0d94cc4dd160ccf036d7)                                                                                                                                                                                                   |
@@ -40,7 +38,7 @@ By completing this course, you will:
 
 
 
-## Day 1: 9.30 - 16.30 Barcelona time
+## Day 1: 9.00 - 14.00 Riga time
 
 | Time           | Activity                                                                                   | Link                                                                                                                                        |
 |----------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
@@ -55,7 +53,7 @@ By completing this course, you will:
 | 15.00 - 16.30  | Methods for supervised Omics integration: mixOmics and DIABLO                              | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/Physalia_MLOmics_Barcelona_2025/blob/main/practicals/supervised_omics_integr_CLL.html)                                                                                                                                                                                                                           |
 
 
-## Day 2: 9.30 - 16.30 Barcelona time
+## Day 2: 9.00 - 14.00 Riga time
 
 | Time           | Activity                                                                                    | Link                                                                                                                                       |
 |----------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
@@ -68,7 +66,7 @@ By completing this course, you will:
 | 14.30 - 16.30  | Methods for Omics integration via neural networks: Autoencoder                              | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/Physalia_MLOmics_Barcelona_2025/blob/main/practicals/DeepLearningDataIntegration.html)                                                                                                                                                                                                                           |
 
 
-## Day 3: 9.30 - 16.30 Barcelona time
+## Day 3: 9.00 - 14.00 Riga time
 
 | Time           | Activity                                                                                        | Link                                                                                                                                   |
 |----------------|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|

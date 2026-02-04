@@ -1,0 +1,284 @@
+---
+title: Introduction to R and RStudio
+subtitle: Instituto Nacional de Medicina Genomica
+author: __Daniel Rivas__ & __Juan Manuel Mejia Arangure__
+date: August 25, 2023
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# #If you want to knit the whole notebook, please specify below correct path to the Rmd-file
+knitr::opts_knit$set("/home/nikolay-oskolkov/TARGETWISE/Teaching/R_course_2026/RcourseUNAM/slides/")
+```
+
+
+```{r, echo = F}
+library(ggplot2)
+```
+
+## Outline - Working with Data
+
+- Working with Files
+- Advanced Graphics
+
+# Working with Files
+
+## Data manipulation
+
+- `tidyr` - https://tidyr.tidyverse.org
+
+- `dplyr` - https://dplyr.tidyverse.org
+
+- `data.table` - https://r-datatable.com
+
+## Data import
+
+- `readr` - https://readr.tidyverse.org
+
+- `readxl` - https://readxl.tidyverse.org
+
+- `haven` - https://haven.tidyverse.org
+
+# Advanced Graphics
+
+## Graphics
+
+```{r, echo = F}
+set.seed(1919)
+x <- rnorm(1000)
+y <- x + rnorm(1000)
+plot(x, y)
+```
+
+## Graphics
+
+```{r, echo = F}
+plot(x, y)
+abline(lm(y ~ x), col = 'red')
+```
+
+## Graphics
+
+```{r, echo = F}
+plot(density(x))
+```
+
+## Graphics
+
+```{r, echo = F}
+plot(density(x))
+lines(density(y), col = 'red')
+```
+
+## Graphics
+
+```{r, echo = F}
+plot(x, y, main = 'This is my Plot', xlab = 'X-Values', ylab = 'Y-Values')
+```
+
+## Graphics
+
+```{r, echo = F}
+group <- rbinom(1000, 1, 0.3) + 1
+plot(x, y, col = group, pch = group)
+```
+
+## Graphics
+
+```{r, echo = F}
+z <- seq(- 5, 5, 0.01)
+plot(z, cos(z))
+```
+
+## Graphics
+
+```{r, echo = F}
+set.seed(11)
+tmp <- sample(1:10, 5, replace = T)
+barplot(tmp)
+```
+
+## Graphics
+
+```{r, echo = F}
+hist(tmp)
+```
+
+## Graphics
+
+```{r, echo = F}
+et <- c(H = 600, F = 300, C = 150, E = 100, O = 200)
+pie(et)
+```
+
+## Graphics
+
+```{r, echo = F}
+boxplot(airquality$Ozone)
+```
+
+## Graphics
+
+```{r, echo = F}
+oz <- airquality$Ozone
+t <- airquality$Temp
+oznorm <- rnorm(200, mean = mean(oz, na.rm = T), sd = sd(oz, na.rm = T))
+tnorm <- rnorm(200, mean = mean(t, na.rm = T), sd = sd(t, na.rm = T))
+boxplot(oz, oznorm, t, tnorm, at = c(1,2,4,5), names = c('ozone', 'normal', 'temp', 'normal'), las = 2, col = c('orange','red'), border = 'brown', horizontal = T, notch = T)
+```
+
+## Graphics
+
+```{r, echo = F}
+boxplot(Temp ~ Month, data = airquality, col = 'orange', border = 'brown')
+```
+
+## Graphics
+
+- Pie chart
+
+- Bar chart
+
+- Line chart
+
+- Scatterplot
+
+## Graphics
+
+Decompose graphics into its constituents
+
+- theme
+
+- coordinates
+
+- facets
+
+- geometries
+
+- scales
+
+- statistics
+
+- mapping
+
+- data
+
+## Graphics
+
+- `ggplot2`
+
+```{r, eval = F}
+ggplot(
+  data = faithful,
+  mapping = aes(x = eruptions, y = waiting)
+) +
+  geom_point()
+```
+
+Which columns to use for `x` and `y`
+
+How to draw the plot
+
+`+` is used to combine `ggplot2` elements
+
+## Graphics
+
+```{r, echo = T, eval = F}
+ggplot(
+  data = faithful,
+  mapping = aes(x = eruptions, y = waiting)
+) +
+  geom_point()
+
+ggplot(data = faithful) +
+  geom_point(
+    mapping = aes(x = eruptions, y = waiting)
+  )
+
+ggplot() +
+  geom_point(
+    mapping = aes(x = eruptions, y = waiting),
+    data = faithful
+  )
+```
+
+## Graphics
+
+```{r, echo = F}
+ggplot(faithful) + geom_point(aes(x = eruptions, y = waiting, colour = eruptions < 3))
+```
+
+Mapping color
+
+## Graphics
+
+```{r, echo = F}
+ggplot(faithful) + geom_point(aes(x = eruptions, y = waiting), colour = 'steelblue')
+```
+
+Setting color
+
+## Graphics
+
+```{r, echo = F, message = F}
+ggplot(faithful) + geom_histogram(aes(x = eruptions))
+```
+
+There are many types of `geoms`, but their mapping requirements differ
+
+## Graphics
+
+```{r, echo = F}
+ggplot(faithful, aes(x = eruptions, y = waiting)) + geom_density_2d() + geom_point()
+```
+
+Layers are stacked in the order of code appearance
+
+## Graphics
+
+```{r, echo = F}
+ggplot(mpg) + geom_point(aes(x = displ, y = hwy)) + facet_wrap(~ class)
+```
+
+Faceting is often the best way to avoid overplotting
+
+## Graphics
+
+```{r, echo = F}
+ggplot(mpg) + geom_point(aes(x = displ, y = hwy)) + facet_grid(year ~ drv)
+```
+
+`facet_grid()` provides a way of doing graphic pivots
+
+## Beyond _ggplot2_
+
+`ggplot2` is huge!
+
+Maintenance is already a team effort
+
+- 47 `geom`
+
+- 25 stats
+
+- 62 scales
+
+Many extensions niche specific & better developed by filed experts
+
+## R Gallery
+
+https://r-graph-gallery.com/
+
+## _ggstatsplot_
+
+https://github.com/IndrajeetPatil/ggstatsplot
+
+# Questions & Comments
+
+<div class = 'centered'>
+
+Daniel Rivas
+
+danielrivasmd@gmail.com
+
+</div>

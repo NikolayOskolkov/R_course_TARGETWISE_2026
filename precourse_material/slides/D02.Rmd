@@ -1,0 +1,180 @@
+---
+title: Introduction to R and RStudio
+subtitle: Instituto Nacional de Medicina Genomica
+author: __Daniel Rivas__ & __Juan Manuel Mejia Arangure__
+date: August 18, 2023
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# #If you want to knit the whole notebook, please specify below correct path to the Rmd-file
+knitr::opts_knit$set("/home/nikolay-oskolkov/TARGETWISE/Teaching/R_course_2026/RcourseUNAM/slides/")
+```
+
+
+## Outline - R Programming Fundamentals
+
+- Data structures
+- Common operations
+  - Control Flow
+  - Loops
+  - Functions
+- Statistics
+
+# Data structures
+
+## Primitives
+
+**Logical** => TRUE(T) | FALSE(F)
+
+**Numeric** => 357, 3.141596, 0, -59
+
+**Character** => 'char', "char"
+
+**Integer** => 9L
+
+**Complex** => 46+5i
+
+## Primitives
+
+**Vectors** -> one-dimensional collection of elements
+
+**Matrices** -> two-dimensional collection of elements (size must be predefined)
+
+**Arrays** -> _n_-dimensional collection of elements
+
+## Primitives
+
+**Factors** -> one-dimensional collection of elements with predefined possible values
+
+**Lists** -> arbitrary collection of any elements
+
+**Data Frames** -> flexible two-dimensional representation of data
+
+# Workshop III
+
+# Common operations
+
+## Control Flow
+
+Problem
+
+## Control Flow
+
+Query data
+
+Decision making
+
+```{r}
+# # if statement
+# if (condition) {
+#   statement
+# } else {
+#   statement
+# }
+```
+
+## Loops
+
+Problem
+
+## Loops
+
+Defined or conditional repetition
+
+Iterative
+
+```{r}
+# # for loop
+# for (value in vector) {
+#    statements
+# }
+```
+
+## Functions
+
+Problem
+
+## Functions
+
+Customized work flow with variable inputs
+
+```{r}
+# # no arguments
+# funcx <- function() {
+#   print('I am a function')
+# }
+
+# # arguments
+# funcy <- function(x) {
+#   x * 10
+# }
+```
+
+# Workshop IV
+
+# Statistics
+
+## Examples
+
+Mean
+```{r}
+# mean(x, trim = 0, na.rm = FALSE, ...)
+```
+
+Median
+```{r}
+# median(x, na.rm = FALSE)
+```
+
+Summary
+```{r}
+# summary(object, ...)
+```
+
+## Examples
+
+**linear regression** => y = ax + b
+```{r}
+# lm(formula, data)
+```
+
+**multiple regression** => y = a + x1 + x2 + x3 ...
+```{r}
+# lm(y ~ x1 + x2 + x3..., data)
+```
+
+**logistic regression**
+```{r}
+# glm(formula, data, family)
+```
+
+## Examples
+
+**ancova analysis**
+```{r}
+# aov(formula, data = NULL, projections = FALSE, qr = TRUE, contrasts = NULL, ...)
+```
+
+**time series analysis**
+```{r}
+# survfit(formula)
+```
+
+**chi square**
+```{r}
+# chisq.test(data)
+```
+
+# Workshop V
+
+# Questions & Comments
+
+<div class = 'centered'>
+
+Daniel Rivas
+
+danielrivasmd@gmail.com
+
+</div>
