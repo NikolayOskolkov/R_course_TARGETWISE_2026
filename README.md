@@ -1,6 +1,6 @@
 ![](course_logo.png)
 
-# Machine Learning for Multi-Omics Integration
+# R Programming for Statistics and Machine Learning
 
 ## Instructors
 
