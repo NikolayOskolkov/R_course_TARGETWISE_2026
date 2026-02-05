@@ -42,7 +42,7 @@ By completing this course, you will:
 |----------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | 09.00 - 10.00  | Introduction to statistical analysis in R: Frequentist vs. Bayesian approaches             | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture1_IntroStatistics.pdf)                                                                                 |
 | 10.00 - 10.30  | Break                                                                                      |                                                                                                                   |
-| 10.30 - 11.30  | Practical: permutation test implementation                                                 | [Lab](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/practicals/Practical1_permutation_test.pdf)  |
+| 10.30 - 11.30  | Practical: comparing parametric and non-parametric tests                                   | [Lab](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/practicals/Practical1_permutation_test.pdf)  |
 | 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                   |
 | 12.30 - 14.00  | Introduction to machine learning in R: linear model and gradient descent                   | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture2_IntroMachineLearning.pdf)                                                                                                                                                                                                                     |
 
@@ -56,5 +56,16 @@ By completing this course, you will:
 | 10.30 - 11.30  | Practical: univariate feature selection (differential gene expression analysis)            | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/FeatureSelection.html)                                                                             |
 | 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
 | 12.30 - 14.00  | Practical: multivariate feature selection: comparison between LASSO and PLS                | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/FeatureSelection.html)
+
+
+## Day 3: 9.00 - 14.00 Riga time
+
+| Time           | Activity                                                         | Link                                                                                                                                        |
+|----------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| 09.00 - 10.00  | Lecture: unsupervised learning, dimensionality reduction and clustering in R               | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture1_IntroStatistics.pdf)                                                                                 |
+| 10.00 - 10.30  | Break                                                                                      |                                                                                                                    |
+| 10.30 - 11.30  | Practical: comparing dimensionality reduction techniques on MNIST dataset                  | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/DimensionalityReduction.html)                                                                             |
+| 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
+| 12.30 - 14.00  | Practical: multivariate feature selection: comparison between LASSO and PLS                | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/DimensionalityReduction.html)
 
 
