@@ -62,10 +62,21 @@ By completing this course, you will:
 
 | Time           | Activity                                                         | Link                                                                                                                                        |
 |----------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
-| 09.00 - 10.00  | Lecture: unsupervised learning, linear dimensionality reduction in R                       | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture3_FeatureSelection.pdf)                                                                                |
+| 09.00 - 10.00  | Lecture: unsupervised learning, linear dimensionality reduction in R, PCA                  | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture3_FeatureSelection.pdf)                                                                                |
 | 10.00 - 10.30  | Break                                                                                      |                                                                                                                    |
 | 10.30 - 11.30  | Lecture: unsupervised learning, non-linear dimensionality reduction in R                   | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture3_FeatureSelection.pdf)                                                                                |
 | 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
 | 12.30 - 14.00  | Practical: comparing dimensionality reduction techniques on MNIST dataset                  | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/DimensionReduction.html)
+
+
+## Day 4: 9.00 - 14.00 Riga time
+
+| Time           | Activity                                                         | Link                                                                                                                                        |
+|----------------|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| 09.00 - 10.00  | Lecture: unsupervised learning, hierarchical and partitioning clustering in R              | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture3_FeatureSelection.pdf)                                                                                |
+| 10.00 - 10.30  | Break                                                                                      |                                                                                                                    |
+| 10.30 - 11.30  | Lecture: unsupervised learning, spectral, density- and graph-based clustering in R         | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture3_FeatureSelection.pdf)                                                                                |
+| 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
+| 12.30 - 14.00  | Practical: comparing clustering algorithms on spherical and moon-like geometries           | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/DimensionReduction.html)
 
 
