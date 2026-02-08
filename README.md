@@ -89,5 +89,5 @@ By completing this course, you will:
 | 10.00 - 10.30  | Break                                                                                      |                                                                                                                    |
 | 10.30 - 11.30  | Lecture: conceptual explanation of neural network and coding back propagation              | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture3_FeatureSelection.pdf)                                                                                |
 | 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
-| 12.30 - 14.00  | Practical: coding and vanilla neural network from scratch in R                             | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/ANNFromScratch_R.html)
+| 12.30 - 14.00  | Practical: coding a vanilla neural network from scratch in R on a toy dataset              | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/ANNFromScratch_R.html)
 
