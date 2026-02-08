@@ -77,7 +77,7 @@ By completing this course, you will:
 | 10.00 - 10.30  | Break                                                                                      |                                                                                                                    |
 | 10.30 - 11.30  | Lecture: unsupervised learning, spectral, density- and graph-based clustering              | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture7_AdvancedClustering.pdf)                                                                                |
 | 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
-| 12.30 - 14.00  | Practical: comparing clustering algorithms on spherical and moon-like clusters             | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/DimensionReduction.html)
+| 12.30 - 14.00  | Practical: comparing clustering algorithms on spherical and moon-like clusters             | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/Clustering_Lab.html)
 
 
 
