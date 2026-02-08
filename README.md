@@ -90,4 +90,5 @@ By completing this course, you will:
 | 10.30 - 11.30  | Lecture: non-linear machine learning in R, decision tree and random forest                 | [Slides](https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/raw/main/slides/Lecture9_RandomForest.pdf)                                                                                    |
 | 11.30 - 12.30  | Lunch                                                                                      |                                                                                                                    |
 | 12.30 - 14.00  | Practical: coding a vanilla neural network from scratch in R on a toy dataset              | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/ANNFromScratch_R.html)
+| 12.30 - 14.00  | Bonus practical: comparing machine learning algorithms in R                                | [Lab](https://html-preview.github.io/?url=https://github.com/NikolayOskolkov/R_course_TARGETWISE_2026/blob/main/practicals/Lab_MachineLearning.html)
 
